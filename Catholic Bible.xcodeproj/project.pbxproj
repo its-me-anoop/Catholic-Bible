@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BAE52BA2BF792AA000E7015 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAE52B92BF792AA000E7015 /* SearchBar.swift */; };
 		6BF3E6BB2BF76043002AC007 /* Catholic_BibleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6BA2BF76043002AC007 /* Catholic_BibleApp.swift */; };
 		6BF3E6BD2BF76043002AC007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6BC2BF76043002AC007 /* ContentView.swift */; };
 		6BF3E6BF2BF76046002AC007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF3E6BE2BF76046002AC007 /* Assets.xcassets */; };
@@ -14,6 +15,17 @@
 		6BF3E6CC2BF76046002AC007 /* Catholic_BibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6CB2BF76046002AC007 /* Catholic_BibleTests.swift */; };
 		6BF3E6D62BF76046002AC007 /* Catholic_BibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6D52BF76046002AC007 /* Catholic_BibleUITests.swift */; };
 		6BF3E6D82BF76046002AC007 /* Catholic_BibleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6D72BF76046002AC007 /* Catholic_BibleUITestsLaunchTests.swift */; };
+		6BF3E6F32BF767F7002AC007 /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6F22BF767F7002AC007 /* Verse.swift */; };
+		6BF3E6F52BF7683F002AC007 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6F42BF7683F002AC007 /* Chapter.swift */; };
+		6BF3E6F72BF76919002AC007 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6F62BF76919002AC007 /* Book.swift */; };
+		6BF3E6F92BF7698E002AC007 /* Bible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6F82BF7698E002AC007 /* Bible.swift */; };
+		6BF3E6FC2BF76A6A002AC007 /* EntireBible-CPDV.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BF3E6FB2BF76A6A002AC007 /* EntireBible-CPDV.json */; };
+		6BF3E6FE2BF76A86002AC007 /* BibleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6FD2BF76A86002AC007 /* BibleViewModel.swift */; };
+		6BF3E7002BF76BA9002AC007 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E6FF2BF76BA9002AC007 /* BookViewModel.swift */; };
+		6BF3E7022BF76BDC002AC007 /* ChapterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E7012BF76BDC002AC007 /* ChapterViewModel.swift */; };
+		6BF3E7042BF76C22002AC007 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E7032BF76C22002AC007 /* ChapterListView.swift */; };
+		6BF3E7062BF76D2B002AC007 /* VerseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E7052BF76D2B002AC007 /* VerseListView.swift */; };
+		6BF3E7082BF77188002AC007 /* TestamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF3E7072BF77188002AC007 /* TestamentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BAE52B92BF792AA000E7015 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		6BF3E6B72BF76043002AC007 /* Catholic Bible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catholic Bible.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF3E6BA2BF76043002AC007 /* Catholic_BibleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catholic_BibleApp.swift; sourceTree = "<group>"; };
 		6BF3E6BC2BF76043002AC007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,17 @@
 		6BF3E6D12BF76046002AC007 /* Catholic BibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catholic BibleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF3E6D52BF76046002AC007 /* Catholic_BibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catholic_BibleUITests.swift; sourceTree = "<group>"; };
 		6BF3E6D72BF76046002AC007 /* Catholic_BibleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catholic_BibleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6BF3E6F22BF767F7002AC007 /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
+		6BF3E6F42BF7683F002AC007 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		6BF3E6F62BF76919002AC007 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		6BF3E6F82BF7698E002AC007 /* Bible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bible.swift; sourceTree = "<group>"; };
+		6BF3E6FB2BF76A6A002AC007 /* EntireBible-CPDV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "EntireBible-CPDV.json"; sourceTree = "<group>"; };
+		6BF3E6FD2BF76A86002AC007 /* BibleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleViewModel.swift; sourceTree = "<group>"; };
+		6BF3E6FF2BF76BA9002AC007 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		6BF3E7012BF76BDC002AC007 /* ChapterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterViewModel.swift; sourceTree = "<group>"; };
+		6BF3E7032BF76C22002AC007 /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
+		6BF3E7052BF76D2B002AC007 /* VerseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseListView.swift; sourceTree = "<group>"; };
+		6BF3E7072BF77188002AC007 /* TestamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestamentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +118,11 @@
 		6BF3E6B92BF76043002AC007 /* Catholic Bible */ = {
 			isa = PBXGroup;
 			children = (
+				6BF3E6FB2BF76A6A002AC007 /* EntireBible-CPDV.json */,
+				6BF3E6FA2BF76A30002AC007 /* ViewModel */,
+				6BF3E6E92BF76292002AC007 /* View */,
 				6BF3E6BA2BF76043002AC007 /* Catholic_BibleApp.swift */,
-				6BF3E6BC2BF76043002AC007 /* ContentView.swift */,
+				6BF3E6E82BF7627F002AC007 /* Model */,
 				6BF3E6BE2BF76046002AC007 /* Assets.xcassets */,
 				6BF3E6C02BF76046002AC007 /* Preview Content */,
 			);
@@ -125,6 +152,39 @@
 				6BF3E6D72BF76046002AC007 /* Catholic_BibleUITestsLaunchTests.swift */,
 			);
 			path = "Catholic BibleUITests";
+			sourceTree = "<group>";
+		};
+		6BF3E6E82BF7627F002AC007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BF3E6F22BF767F7002AC007 /* Verse.swift */,
+				6BF3E6F42BF7683F002AC007 /* Chapter.swift */,
+				6BF3E6F62BF76919002AC007 /* Book.swift */,
+				6BF3E6F82BF7698E002AC007 /* Bible.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BF3E6E92BF76292002AC007 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BF3E6BC2BF76043002AC007 /* ContentView.swift */,
+				6BF3E7032BF76C22002AC007 /* ChapterListView.swift */,
+				6BF3E7052BF76D2B002AC007 /* VerseListView.swift */,
+				6BF3E7072BF77188002AC007 /* TestamentView.swift */,
+				6BAE52B92BF792AA000E7015 /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BF3E6FA2BF76A30002AC007 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BF3E6FD2BF76A86002AC007 /* BibleViewModel.swift */,
+				6BF3E6FF2BF76BA9002AC007 /* BookViewModel.swift */,
+				6BF3E7012BF76BDC002AC007 /* ChapterViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF3E6FC2BF76A6A002AC007 /* EntireBible-CPDV.json in Resources */,
 				6BF3E6C22BF76046002AC007 /* Preview Assets.xcassets in Resources */,
 				6BF3E6BF2BF76046002AC007 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +318,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF3E7022BF76BDC002AC007 /* ChapterViewModel.swift in Sources */,
+				6BF3E6F32BF767F7002AC007 /* Verse.swift in Sources */,
+				6BF3E6FE2BF76A86002AC007 /* BibleViewModel.swift in Sources */,
 				6BF3E6BD2BF76043002AC007 /* ContentView.swift in Sources */,
+				6BF3E6F92BF7698E002AC007 /* Bible.swift in Sources */,
 				6BF3E6BB2BF76043002AC007 /* Catholic_BibleApp.swift in Sources */,
+				6BAE52BA2BF792AA000E7015 /* SearchBar.swift in Sources */,
+				6BF3E7082BF77188002AC007 /* TestamentView.swift in Sources */,
+				6BF3E7042BF76C22002AC007 /* ChapterListView.swift in Sources */,
+				6BF3E7002BF76BA9002AC007 /* BookViewModel.swift in Sources */,
+				6BF3E6F72BF76919002AC007 /* Book.swift in Sources */,
+				6BF3E7062BF76D2B002AC007 /* VerseListView.swift in Sources */,
+				6BF3E6F52BF7683F002AC007 /* Chapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
