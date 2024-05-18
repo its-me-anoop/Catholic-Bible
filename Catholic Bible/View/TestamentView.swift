@@ -22,9 +22,11 @@ struct TestamentView: View {
     }
     
     var body: some View {
-        NavigationView {
+        ZStack {
+            Color(.brown.withAlphaComponent(0.4))
+                .ignoresSafeArea()
             VStack {
-                SearchBar(text: $searchText, placeholder: "Search Books")
+                //SearchBar(text: $searchText, placeholder: "Search \(title) Books")
                 List(filteredBooks) { book in
                     NavigationLink(destination: ChapterListView(viewModel: BookViewModel(book: book))) {
                         Text(book.name)
@@ -32,9 +34,11 @@ struct TestamentView: View {
                 }
                 .listStyle(PlainListStyle())
                 
-                .navigationTitle(title)
+                
             }
         }
+        
+        
     }
 }
 

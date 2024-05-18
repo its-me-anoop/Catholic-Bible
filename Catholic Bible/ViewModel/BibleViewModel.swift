@@ -13,16 +13,16 @@ class BibleViewModel: ObservableObject {
     @Published var newTestament: [Book] = []
 
     let oldTestamentBooks: [String] = [
-            "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
-            "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel",
-            "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra",
-            "Nehemiah", "Tobit", "Judith", "Esther", "1 Maccabees", "2 Maccabees",
-            "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Songs",
-            "Wisdom", "Sirach", "Isaiah", "Jeremiah", "Lamentations",
-            "Baruch", "Ezekiel", "Daniel", "Hosea", "Joel",
-            "Amos", "Obadiah", "Jonah", "Micah", "Nahum",
-            "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"
-        ]
+        "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
+        "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel",
+        "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles", "Ezra",
+        "Nehemiah", "Tobit", "Judith", "Esther", "1 Maccabees", "2 Maccabees",
+        "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Songs",
+        "Wisdom", "Sirach", "Isaiah", "Jeremiah", "Lamentations",
+        "Baruch", "Ezekiel", "Daniel", "Hosea", "Joel",
+        "Amos", "Obadiah", "Jonah", "Micah", "Nahum",
+        "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"
+    ]
     
     let newTestamentBooks: [String] = [
         "Matthew", "Mark", "Luke", "John", "Acts",
@@ -64,8 +64,8 @@ class BibleViewModel: ObservableObject {
                         if let versesDict = versesDict as? [String: String] {
                             var verses = [Verse]()
                             for (verseNumber, verseText) in versesDict {
-                                if let verseNumber = Int(verseNumber) {
-                                    verses.append(Verse(number: verseNumber, text: verseText))
+                                if let verseNumber = Int(verseNumber), let chapterNumber = Int(chapterNumber) {
+                                    verses.append(Verse(number: verseNumber, text: verseText, bookName: bookName, chapterNumber: chapterNumber))
                                 }
                             }
                             if let chapterNumber = Int(chapterNumber) {

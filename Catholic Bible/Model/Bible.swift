@@ -8,5 +8,5 @@
 import Foundation
 
 struct Bible: Codable {
-    var books : [Book]
+    var books: [Book]
 }

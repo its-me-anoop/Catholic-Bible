@@ -14,4 +14,3 @@ struct BookmarkedVerse: Codable, Identifiable {
     var verseNumber: Int
     var text: String
 }
-

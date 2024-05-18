@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Book : Codable, Identifiable {
+struct Book: Codable, Identifiable {
     var id: UUID
     var name: String
-    var chapters : [Chapter]
+    var chapters: [Chapter]
     
     init(name: String, chapters: [Chapter]) {
         self.id = UUID()
